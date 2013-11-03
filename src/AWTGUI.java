@@ -8,12 +8,12 @@
  *
  * @author Jack
  */
-public class GUI extends java.awt.Frame {
+public class AWTGUI extends java.awt.Frame {
 
     /**
      * Creates new form GUI
      */
-    public GUI() {
+    public AWTGUI() {
         initComponents();
         setVisible(true);
     }
@@ -26,7 +26,8 @@ public class GUI extends java.awt.Frame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        bufferedCanvas1 = new graphics.awt.BufferedCanvas(500, 500);
+        jSeparator1 = new javax.swing.JSeparator();
+        bufferedCanvas1 = new graphics.awt.BufferedCanvas();
 
         setTitle("VIPER 1.2 Alpha");
         addWindowListener(new java.awt.event.WindowAdapter() {
@@ -52,7 +53,7 @@ public class GUI extends java.awt.Frame {
     public static void main(String args[]) {
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new GUI().setVisible(true);
+                new AWTGUI().setVisible(true);
             }
         });
     }
@@ -60,5 +61,6 @@ public class GUI extends java.awt.Frame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     public graphics.awt.BufferedCanvas bufferedCanvas1;
+    private javax.swing.JSeparator jSeparator1;
     // End of variables declaration//GEN-END:variables
 }
