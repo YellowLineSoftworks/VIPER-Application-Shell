@@ -20,10 +20,10 @@ public class main extends Clock {
         main = new main();
         
         //AWT Standard frame code:
-        //main.start(60, new BufferedFrame(0, 0, 500, 500, "VIPER 1.2 Alpha", new MouseListener(), new KeyListener()));   
+        //main.start(60, new BufferedFrame(0, 0, 500, 500, "VIPER 1.3 Alpha", new MouseListener(), new KeyListener()));   
         
         //Swing Standard frame code:
-        //main.start(60, new BufferedJFrame(0, 0, 500, 500, "VIPER 1.2 Alpha", new MouseListener(), new KeyListener()));
+        //main.start(60, new BufferedJFrame(0, 0, 500, 500, "VIPER 1.3 Alpha", new MouseListener(), new KeyListener()));
         
         //AWT Custom frame code:
         //AWTGUI awtgui = new AWTGUI();

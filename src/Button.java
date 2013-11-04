@@ -1,4 +1,5 @@
 
+import graphics.BufferedDevice;
 import java.awt.Image;
 
 /**
@@ -6,16 +7,16 @@ import java.awt.Image;
  */
 public class Button extends resources.gameobjects.Button{
 
-    public Button(int x, int y, Image unclicked, Image clicked, String buttonType) {
-        super(x, y, unclicked, clicked, buttonType);
+    public Button(int x, int y, Image unclicked, Image clicked, String buttonType, BufferedDevice device) {
+        super(x, y, unclicked, clicked, buttonType, device);
     }
     
-    public Button(int x, int y, int endx, int endy, Image unclicked, Image clicked, String buttonType) {
-        super(x, y, endx, endy, unclicked, clicked, buttonType);
+    public Button(int x, int y, int endx, int endy, Image unclicked, Image clicked, String buttonType, BufferedDevice device) {
+        super(x, y, endx, endy, unclicked, clicked, buttonType, device);
     }
     
-    public Button(int x, int y, int endx, int endy, int srx1, int sry1, int srx2, int sry2, Image unclicked, Image clicked, String buttonType) {
-        super (x, y, endx, endy, srx1, sry1, srx2, sry2, unclicked, clicked, buttonType);
+    public Button(int x, int y, int endx, int endy, int srx1, int sry1, int srx2, int sry2, Image unclicked, Image clicked, String buttonType, BufferedDevice device) {
+        super (x, y, endx, endy, srx1, sry1, srx2, sry2, unclicked, clicked, buttonType, device);
     }
     
     @Override

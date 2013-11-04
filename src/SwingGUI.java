@@ -30,6 +30,7 @@ public class SwingGUI extends javax.swing.JFrame {
         bufferedJPanel1 = new graphics.swing.BufferedJPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("VIPER 1.3 Alpha");
 
         javax.swing.GroupLayout bufferedJPanel1Layout = new javax.swing.GroupLayout(bufferedJPanel1);
         bufferedJPanel1.setLayout(bufferedJPanel1Layout);
