@@ -36,6 +36,7 @@
   <SubComponents>
     <Container class="graphics.swing.BufferedJPanel" name="bufferedJPanel1">
       <AuxValues>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new graphics.swing.BufferedJPanel(new MouseListener(), new KeyListener())"/>
         <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
       </AuxValues>
 

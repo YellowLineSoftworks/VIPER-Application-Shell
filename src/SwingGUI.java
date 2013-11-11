@@ -27,7 +27,7 @@ public class SwingGUI extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        bufferedJPanel1 = new graphics.swing.BufferedJPanel();
+        bufferedJPanel1 = new graphics.swing.BufferedJPanel(new MouseListener(), new KeyListener());
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("VIPER 1.3 Alpha");
